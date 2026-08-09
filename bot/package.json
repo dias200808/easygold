@@ -1,0 +1,17 @@
+{
+  "name": "easygold-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "EasyGold — Telegram-бот продажи голды Standoff 2 с ручной выдачей",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "dev": "node --watch --env-file-if-exists=.env src/index.js"
+  },
+  "dependencies": {
+    "grammy": "^1"
+  }
+}

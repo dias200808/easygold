@@ -1,0 +1,21 @@
+# Секреты — никогда не коммитить
+.env
+.env.local
+*.env
+!.env.example
+
+# База и логи
+data/
+*.db
+*.db-wal
+*.db-shm
+*.log
+nohup.out
+
+# Зависимости
+node_modules/
+
+# Служебное
+.gstack/
+.DS_Store
+.claude/
